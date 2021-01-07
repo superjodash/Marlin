@@ -2,4 +2,27 @@ https://www.reddit.com/r/ender3/comments/h8y1ia/marlin_20x_guide_skr_mini_e3_v20
 
 https://www.reddit.com/r/3Dprinting/comments/hx6ab3/bed_leveling_bltouch_inductive_sensor/
 
+
+
+== PID
+
 https://www.reddit.com/r/3Dprinting/comments/h8xqrn/pid_autotune/
+
+Initial PID settings
+Send: M301
+Recv: echo: p:21.73 i:1.54 d:76.55
+Send: M304
+Recv: echo: p:50.71 i:9.88 d:173.43
+
+
+
+
+Recv: PID Autotune finished! Put the last Kp, Ki and Kd constants from below into Configuration.h
+Recv: #define DEFAULT_Kp 23.86
+Recv: #define DEFAULT_Ki 2.05
+Recv: #define DEFAULT_Kd 69.32
+
+Recv: PID Autotune finished! Put the last Kp, Ki and Kd constants from below into Configuration.h
+Recv: #define DEFAULT_bedKp 222.16
+Recv: #define DEFAULT_bedKi 43.33
+Recv: #define DEFAULT_bedKd 759.33
